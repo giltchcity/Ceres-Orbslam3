@@ -92,7 +92,7 @@ python3 vis3.py
 roslaunch orb_slam3_ros kimera_thoth.launch bag_file:=/path/to/thoth_dataset.bag
 ```
 
-### For Real-time Camera
+### For kitti 
 ```bash
 # Remove bag file argument for live camera feed
 roslaunch orb_slam3_ros kitti_stereo.launch
